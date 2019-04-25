@@ -19,10 +19,12 @@ class AddTodo extends Component {
       <form
         onSubmit={this.onSubmit}
         style={formField}
+        autocomplete="off"
       >
         <input
           type='text'
           name='title'
+          required
           style={inputField}
           placeholder="Add Todo"
           value={this.state.title}

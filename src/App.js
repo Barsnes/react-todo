@@ -59,7 +59,7 @@ class App extends Component {
     return (
       <Router>
 
-        <div className="App">
+        <div className="App" style={style}>
           <div className="container">
             <Header />
             <Route exact path="/" render={props => (
@@ -80,6 +80,12 @@ class App extends Component {
       </Router>
     );
   }
+}
+
+const style = {
+  maxWidth: '650px',
+  margin: 'auto',
+  boxShadow: '0 5px 15px #000000'
 }
 
 export default App;

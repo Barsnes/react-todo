@@ -6,8 +6,14 @@
 
 body {
   font-family: Aleo;
-  background-color: #111116;
+  background-color: #232323;
   color: #FFF;
+  display: grid;
+}
+
+.root {
+  max-width: 650px;
+  margin: auto;
 }
 
 a {
